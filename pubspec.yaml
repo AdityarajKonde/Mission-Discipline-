@@ -1,0 +1,21 @@
+name: mission_control
+description: A military-themed task and rule reminder app.
+publish_to: "none"
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_local_notifications: ^9.9.1
+  intl: ^0.18.1
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
